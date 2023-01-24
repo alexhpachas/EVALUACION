@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "d46791c3-7050-4491-aeb2-4218bfbeaabd": {
+      "ProjectGuid": "d46791c3-7050-4491-aeb2-4218bfbeaabd",
+      "DisplayName": "API_6",
+      "ColorIndex": 0
+    },
+    "e6dacd63-7ad5-45a9-b2d9-4ef5323efbb9": {
+      "ProjectGuid": "e6dacd63-7ad5-45a9-b2d9-4ef5323efbb9",
+      "DisplayName": "CONTRACTS",
+      "ColorIndex": 1
+    },
+    "4e5cc49b-14bf-4374-805e-27c9f68bb382": {
+      "ProjectGuid": "4e5cc49b-14bf-4374-805e-27c9f68bb382",
+      "DisplayName": "REPOSITORY",
+      "ColorIndex": 2
+    },
+    "dd6c9fac-f74f-4cf2-a43c-a06f8d15d3f1": {
+      "ProjectGuid": "dd6c9fac-f74f-4cf2-a43c-a06f8d15d3f1",
+      "DisplayName": "DTO",
+      "ColorIndex": 3
+    },
+    "599efe00-a8ba-4a57-947e-754f057c8d2e": {
+      "ProjectGuid": "599efe00-a8ba-4a57-947e-754f057c8d2e",
+      "DisplayName": "CONECCTION",
+      "ColorIndex": 4
+    },
+    "742bc906-7106-4c52-b9d5-1501bc185367": {
+      "ProjectGuid": "742bc906-7106-4c52-b9d5-1501bc185367",
+      "DisplayName": "CONEXION",
+      "ColorIndex": 5
+    },
+    "cefc8536-bc26-41a0-8f60-5c62cd133711": {
+      "ProjectGuid": "cefc8536-bc26-41a0-8f60-5c62cd133711",
+      "DisplayName": "ENTIDADES",
+      "ColorIndex": 6
+    }
+  },
+  "NextColorIndex": 7
+}

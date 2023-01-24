@@ -1,0 +1,148 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "CONEXION/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/CONEXION.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CONEXION.dll": {}
+        }
+      },
+      "CONTRACTS/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "DTO": "1.0.0",
+          "ENTIDADES": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CONTRACTS.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CONTRACTS.dll": {}
+        }
+      },
+      "DTO/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/DTO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DTO.dll": {}
+        }
+      },
+      "ENTIDADES/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ENTIDADES.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ENTIDADES.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CONEXION/1.0.0": {
+      "type": "project",
+      "path": "../CONEXION/CONEXION.csproj",
+      "msbuildProject": "../CONEXION/CONEXION.csproj"
+    },
+    "CONTRACTS/1.0.0": {
+      "type": "project",
+      "path": "../CONTRACTS/CONTRACTS.csproj",
+      "msbuildProject": "../CONTRACTS/CONTRACTS.csproj"
+    },
+    "DTO/1.0.0": {
+      "type": "project",
+      "path": "../DTO/DTO.csproj",
+      "msbuildProject": "../DTO/DTO.csproj"
+    },
+    "ENTIDADES/1.0.0": {
+      "type": "project",
+      "path": "../ENTIDADES/ENTIDADES.csproj",
+      "msbuildProject": "../ENTIDADES/ENTIDADES.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "CONEXION >= 1.0.0",
+      "CONTRACTS >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\KEYMI\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\KEYMI\\Desktop\\EVALUACION\\BACKEND\\REPOSITORY\\REPOSITORY.csproj",
+      "projectName": "REPOSITORY",
+      "projectPath": "C:\\Users\\KEYMI\\Desktop\\EVALUACION\\BACKEND\\REPOSITORY\\REPOSITORY.csproj",
+      "packagesPath": "C:\\Users\\KEYMI\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\KEYMI\\Desktop\\EVALUACION\\BACKEND\\REPOSITORY\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\KEYMI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\KEYMI\\Desktop\\EVALUACION\\BACKEND\\CONEXION\\CONEXION.csproj": {
+              "projectPath": "C:\\Users\\KEYMI\\Desktop\\EVALUACION\\BACKEND\\CONEXION\\CONEXION.csproj"
+            },
+            "C:\\Users\\KEYMI\\Desktop\\EVALUACION\\BACKEND\\CONTRACTS\\CONTRACTS.csproj": {
+              "projectPath": "C:\\Users\\KEYMI\\Desktop\\EVALUACION\\BACKEND\\CONTRACTS\\CONTRACTS.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

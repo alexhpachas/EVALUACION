@@ -1,0 +1,71 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "REPOSITORY/1.0.0": {
+        "dependencies": {
+          "CONEXION": "1.0.0",
+          "CONTRACTS": "1.0.0"
+        },
+        "runtime": {
+          "REPOSITORY.dll": {}
+        }
+      },
+      "CONEXION/1.0.0": {
+        "runtime": {
+          "CONEXION.dll": {}
+        }
+      },
+      "CONTRACTS/1.0.0": {
+        "dependencies": {
+          "DTO": "1.0.0",
+          "ENTIDADES": "1.0.0"
+        },
+        "runtime": {
+          "CONTRACTS.dll": {}
+        }
+      },
+      "DTO/1.0.0": {
+        "runtime": {
+          "DTO.dll": {}
+        }
+      },
+      "ENTIDADES/1.0.0": {
+        "runtime": {
+          "ENTIDADES.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "REPOSITORY/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CONEXION/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CONTRACTS/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DTO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ENTIDADES/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,86 @@
+<div class="title">
+  <h1>RESUMEN TRABAJADOR</h1>
+</div>
+<div class="container">
+  <mat-card class="card">
+      <form [formGroup]="Myformulario" (ngSubmit)="GuardarMascota()">
+          <mat-grid-list cols="2" rowHeight="80px" style="text-align: center;">
+              <mat-grid-tile >
+                  <mat-form-field appearance="outline">
+                      <mat-label>DNI</mat-label>
+                      <input type="number" formControlName="dni" matInput placeholder="Nombre de la Mascota">
+                  </mat-form-field>
+              </mat-grid-tile>
+
+              <mat-grid-tile>
+                  <mat-form-field appearance="outline">
+                      <mat-label>HORAS LABORADAS</mat-label>
+                      <input type="number" formControlName="horasLaboradas" matInput>
+                  </mat-form-field>
+              </mat-grid-tile>
+
+              <mat-grid-tile>
+                  <mat-form-field appearance="outline">
+                      <mat-label>DIAS LABORADAS</mat-label>
+                      <input type="number" formControlName="diasLaboradas" matInput>
+                  </mat-form-field>
+              </mat-grid-tile>
+
+              <mat-grid-tile>
+                  <mat-form-field appearance="outline">
+                      <mat-label>FALTAS</mat-label>
+                      <input type="number" formControlName="faltas" matInput>
+                  </mat-form-field>
+              </mat-grid-tile>
+
+              <mat-grid-tile  [colspan]="2">
+                  <mat-form-field appearance="outline">
+                      <mat-label>TIPO TRABAJADOR</mat-label>
+                      <!--<input type="text" formControlName="tipoTrabajador" matInput>-->
+
+                      <mat-select formControlName="tipoTrabajador">
+                        <mat-option value="OBRERO">OBRERO</mat-option>
+                        <mat-option value="SUPERVISOR">SUPERVISOR</mat-option>
+                        <mat-option value="GERENTE">GERENTE</mat-option>
+                      </mat-select>
+                  </mat-form-field>
+              </mat-grid-tile>
+
+              <mat-grid-tile [colspan]="2" >
+                  <button [disabled]="Myformulario.invalid" type="submit" class="btnAceptar" mat-raised-button color="primary">Aceptar</button>
+                  <button mat-raised-button routerLink="listadoMascota">Volver</button>
+              </mat-grid-tile>
+          </mat-grid-list>
+      </form>
+  </mat-card>
+
+  <div class="container" >
+    <div class="card-body">
+      <table mat-table [dataSource]="dataSource" matSort class="mat-elevation-z8">
+        <ng-container matColumnDef="DNI">
+          <th mat-header-cell *matHeaderCellDef mat-sort-header> DNI </th>
+          <td mat-cell *matCellDef="let element"> {{element.dni}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="SALARIO">
+          <th mat-header-cell *matHeaderCellDef mat-sort-header> SALARIO </th>
+          <td mat-cell *matCellDef="let element"> {{element.salario}} </td>
+        </ng-container>
+
+
+        <ng-container matColumnDef="TIPO">
+          <th mat-header-cell *matHeaderCellDef mat-sort-header> TIPO TRABAJADOR </th>
+          <td mat-cell *matCellDef="let element"> {{element.tipoTrabajador}} </td>
+        </ng-container>
+
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+      </table>
+    </div>
+  </div>
+</div>
+
+
+
+
+

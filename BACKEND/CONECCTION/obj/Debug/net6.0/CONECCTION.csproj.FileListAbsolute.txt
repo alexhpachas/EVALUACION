@@ -1,0 +1,12 @@
+C:\Users\KEYMI\Desktop\DTO\CONECCTION\bin\Debug\net6.0\CONECCTION.deps.json
+C:\Users\KEYMI\Desktop\DTO\CONECCTION\bin\Debug\net6.0\CONECCTION.dll
+C:\Users\KEYMI\Desktop\DTO\CONECCTION\bin\Debug\net6.0\ref\CONECCTION.dll
+C:\Users\KEYMI\Desktop\DTO\CONECCTION\bin\Debug\net6.0\CONECCTION.pdb
+C:\Users\KEYMI\Desktop\DTO\CONECCTION\obj\Debug\net6.0\CONECCTION.csproj.AssemblyReference.cache
+C:\Users\KEYMI\Desktop\DTO\CONECCTION\obj\Debug\net6.0\CONECCTION.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\KEYMI\Desktop\DTO\CONECCTION\obj\Debug\net6.0\CONECCTION.AssemblyInfoInputs.cache
+C:\Users\KEYMI\Desktop\DTO\CONECCTION\obj\Debug\net6.0\CONECCTION.AssemblyInfo.cs
+C:\Users\KEYMI\Desktop\DTO\CONECCTION\obj\Debug\net6.0\CONECCTION.csproj.CoreCompileInputs.cache
+C:\Users\KEYMI\Desktop\DTO\CONECCTION\obj\Debug\net6.0\CONECCTION.dll
+C:\Users\KEYMI\Desktop\DTO\CONECCTION\obj\Debug\net6.0\ref\CONECCTION.dll
+C:\Users\KEYMI\Desktop\DTO\CONECCTION\obj\Debug\net6.0\CONECCTION.pdb
